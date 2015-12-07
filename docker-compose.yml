@@ -1,0 +1,6 @@
+sardroid:
+    container_name: sardroid
+    image: melonmanchan/sardroid
+    env_file:
+        - common.env
+        - sardroid.env
