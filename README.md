@@ -1,6 +1,8 @@
 # Sardroid Dockerfiles
 Dockerfiles related to running the SAR server inside Docker
 
+See server itself [here!](https://github.com/melonmanchan/sardroid-server)
+
 Licence
 -------
 
