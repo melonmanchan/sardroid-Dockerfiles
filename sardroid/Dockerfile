@@ -1,9 +1,11 @@
-FROM node:onbuild
+FROM ubuntu:14.04
 MAINTAINER Matti Jokitulppo <matti.jokitulppo@aalto.fi>
+
+RUN curl -sL https://deb.nodesource.com/setup_5.x | sudo -E bash -
 
 RUN echo "deb http://archive.ubuntu.com/ubuntu precise main universe" > /etc/apt/sources.list
 RUN apt-get update
-RUN apt-get install curl
+RUN apt-get install -y curl nodejs
 RUN apt-get upgrade -y
 
 RUN npm install -g babel-cli
