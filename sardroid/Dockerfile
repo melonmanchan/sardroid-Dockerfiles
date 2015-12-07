@@ -22,6 +22,6 @@ WORKDIR /sardroid
 
 RUN npm install
 
-EXPOSE 9001
+EXPOSE 9000
 
 CMD ["bash", "start-sardroid.sh"]
