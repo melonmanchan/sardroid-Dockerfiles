@@ -1,4 +1,4 @@
-# ardroid-Dockerfiles
+# Sardroid Dockerfiles
 Dockerfiles related to running the SAR server inside Docker
 
 Licence
