@@ -11,6 +11,8 @@ RUN curl -sL https://deb.nodesource.com/setup_5.x | sudo -E bash -
 RUN apt-get install -y nodejs
 RUN npm install -g babel-cli
 
+RUN mkdir /sardroid
+
 RUN curl -SL https://github.com/melonmanchan/sardroid-server/tarball/master \
     | tar -zxC /sardroid --strip-components=1
 
