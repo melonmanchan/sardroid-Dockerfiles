@@ -3,6 +3,25 @@ Dockerfiles related to running the SAR server inside Docker, maybe even inside [
 
 See server itself [here!](https://github.com/melonmanchan/sardroid-server)
 
+## How do I configure the app itself to use LayersBox?
+
+Go right [here](https://github.com/melonmanchan/sardroid/blob/master/app/js/app.js#L44), and configure the PeerJS options to match your layersbox. Currently, something akin to the following should work:
+
+```javascript
+                peerjs: {
+                    host: '188.166.88.67',
+                    port: 443,
+                    path: 'sardroid/peerjs',
+                    debug: 3,
+                    secure: true,
+                    config: {'iceServers': [
+                        { 'url': 'stun:stun.l.google.com:19302' },
+                        { 'url': 'stun:stun1.l.google.com:19302' },
+                        { 'url': 'stun:stun2.l.google.com:19302' },
+                        { 'url': 'stun:stun3.l.google.com:19302' }
+                    ]}},
+```
+
 Licence
 -------
 
