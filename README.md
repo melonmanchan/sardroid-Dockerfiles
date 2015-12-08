@@ -1,7 +1,7 @@
 # Sardroid Dockerfiles
 Dockerfiles related to running the SAR server inside Docker, maybe even the [LayersBox](https://github.com/learning-layers/LayersBox)!
 
-See server itself [here!](https://github.com/melonmanchan/sardroid-server)
+See server itself [here](https://github.com/melonmanchan/sardroid-server), and also the matching [Docker hub](https://hub.docker.com/r/melonmanchan/sardroid/) repository for this one.
 
 ## How do I configure the app itself to use LayersBox?
 
