@@ -1,5 +1,5 @@
 # Sardroid Dockerfiles
-Dockerfiles related to running the SAR server inside Docker, maybe even inside [LayersBox](https://github.com/learning-layers/LayersBox) in the future!
+Dockerfiles related to running the SAR server inside Docker, maybe even the [LayersBox](https://github.com/learning-layers/LayersBox)!
 
 See server itself [here!](https://github.com/melonmanchan/sardroid-server)
 
